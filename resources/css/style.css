@@ -22,13 +22,31 @@ body {
 }
 
 /* nav */
+.logo {
+  background-color: cadetblue;
+  color: white;
+  position: relative;
+  top: 1rem;
+}
 
+.logo,
+ul {
+  display: flex;
+}
+
+ul {
+  flex-grow: 1;
+}
 
 
 /* Banner */
-
-
-
+.main-banner {
+  background-image: url(../glasses-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 30rem;
+}
 
 /* Products CSS */
 
