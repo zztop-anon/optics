@@ -27,17 +27,30 @@ body {
   color: white;
   position: relative;
   top: 1rem;
+  width: 100%;
 }
 
 .logo,
+nav,
 ul {
   display: flex;
+  align-items: center;
 }
 
-ul {
+nav {
   flex-grow: 1;
+  justify-content: flex-end;
 }
 
+.logo img {
+  margin: auto 1rem auto 2rem;
+  height: 1.5rem;
+  width: auto;
+}
+
+li {
+  margin: 1rem 2rem 1rem 0;
+}
 
 /* Banner */
 .main-banner {
