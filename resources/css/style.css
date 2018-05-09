@@ -21,7 +21,7 @@ body {
   margin: 0 auto;
 }
 
-/* nav */
+/* Banner Nav */
 .logo {
   background-color: cadetblue;
   color: white;
@@ -59,6 +59,23 @@ li {
   background-position: center;
   background-size: cover;
   height: 30rem;
+}
+
+/* Banner Title  */
+.main-banner-title {
+  margin-top: 10rem;
+  margin-right: -2rem;
+  background-color: white;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+  padding: 1.5rem 5rem;
+  display: inline-block;
+}
+
+div .flex {
+  display: flex;
+  justify-content: flex-end;
 }
 
 /* Products CSS */
