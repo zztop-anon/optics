@@ -14,6 +14,7 @@ html {
 body {
   font-family: "Helvetica", sans-serif;
   line-height: 1.4;
+  background-color: azure;
 }
 
 .container {
@@ -78,12 +79,57 @@ div .flex {
   justify-content: flex-end;
 }
 
-/* Products CSS */
+/* Services */
 
+.services .container {
+  display: flex;
+  justify-content: center;
+  margin: 3rem auto;
+}
 
+.service {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 8rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.service-image img {
+  width: 5rem;
+}
+
+#exams  {
+  width: 3.5rem;
+}
 
 /* philosophy-appointments */
+.philosophy-appointments .container {
+  display: flex;
+  justify-content: center;
+  border: 1px solid blue;
+  padding-bottom: 5rem;
+}
 
+.philosophy {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid blue;
+  width: 35%;
+}
 
+#philosophy {
+  margin-right: 5%;
+}
+
+.philosophy-title {
+  background-color: cadetblue;
+  padding: .5rem 0 .5rem 1.5rem;
+  font-weight: bold;
+  color: white;
+  max-width: 12rem;
+  margin-bottom: 1rem;
+}
 
 /* Footer CSS */
