@@ -79,6 +79,10 @@ div .flex {
   justify-content: flex-end;
 }
 
+.truncated-menu {
+  display: none;
+}
+
 @media only screen and (max-width: 1024px) {
   .main-banner {
     height: 22rem;
@@ -101,6 +105,37 @@ div .flex {
   .main-banner-title span {
     font-size: 1.33rem;
   }
+}
+
+@media only screen and (max-width: 725px) {
+  .menu ul {
+    display: none;
+  }
+
+  ul.truncated-menu {
+    display: block;
+  }
+
+}
+
+@media only screen and (max-width: 590px) {
+  .main-banner {
+    height: 17rem;
+  }
+
+  .main-banner-title {
+    width: 100%;
+    margin: 9rem 0 0 0;
+    padding: .75rem 0;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .main-banner-title span {
+    font-size: 1rem;
+  }
+
 }
 
 /* Services */
@@ -154,6 +189,40 @@ div .flex {
   margin-bottom: 1rem;
 }
 
+@media only screen and (max-width: 590px) {
+  .services .container {
+    flex-direction: column;
+    align-items: center;
+    margin: 3.77 0 2.23rem 0;
+  }
+
+  .service {
+    text-align: center;
+    margin: 0;
+    padding: 0 0 1.54rem 0;
+    height: auto;
+  }
+
+  .philosophy-appointments .container {
+    flex-direction: column;
+  }
+
+  .philosophy {
+    width: 100%;
+  }
+
+  .philosophy-title {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .philosophy-description {
+    font-size: .77rem;
+    padding-bottom: 4rem;
+  }
+
+}
+
 /* Footer CSS */
 .footer {
   background-color: azure;
@@ -167,4 +236,10 @@ footer {
 footer img {
   height: 1.5rem;
   padding-right: 1rem;
+}
+
+@media only screen and (max-width: 590px) {
+  footer: {
+    padding: 0 0 4rem 4rem;
+  }
 }
